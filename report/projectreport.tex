@@ -1,0 +1,71 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\renewcommand{\figurename}{Gambar}
+\renewcommand{\tablename}{Tabel}
+\renewcommand{\IEEEkeywordsname}{Keywords}
+\usepackage{caption}
+\usepackage{pgf}
+    
+\begin{document}
+
+\title{Group Project --- ESP 8266 Project.\\
+}
+
+\author{
+    Muhammad Ali Imron 1822007\textsuperscript{\rm 1}\\
+    Rian Sanjaya Nadeak 1822012\textsuperscript{\rm 2},
+    Riani Artika 1822006\textsuperscript{\rm 3},Maranti Nainggolan 1922023\textsuperscript{\rm 4}\\
+    Institut Teknologi Batam\\
+    Tiban Baru, Kec. Sekupang, Kota Batam, Kepulauan Riau 29424\\
+    https://github.com/Ryukii27/ScanWiFiKelompok2}
+
+\maketitle
+
+\begin{abstract}
+    ESP merupakan sebuah Wi-Fi microchip yang dengan TCP/IP network software build-in sebagai alat untuk menangkap sinyal W-Fi. Dalam perkuliahan komunikasi data, kita diberikan tugas besar dalam penggunaan ESP 8266 dalam pencarian sinyal Wi-Fi dan menampilkan kekuatan sinyal dengan satian dBm, kemudian dihubungkan dengan melalui TelegramBot. Untuk itu dibuatlah sebuah TelegramBot yang akan menampilkan hasil pencarian Wi-Fi menggunakan ESP 8266.
+\end{abstract}
+
+\begin{IEEEkeywords}
+    ESP 8266 ; Wi-Fi ; Telegram ; TelegramBot ; ChatBot.
+\end{IEEEkeywords}
+
+\section{Pendahuluan}
+Komunikasi merupakan sesuatu yang kita jumpai saat ini baik antar individu, individu ke kolektif, maupun antar kolektif. Tak hanya makhluk hidup saja yang melakukan komunikasi, bahkan di era teknologi yang canggih ini komunikasi juga terjadi pada benda yang tidak hidup seperti yang terjadi pada komputasi terhadap komunikasi data dan informasi. Komunikasi data terjadi ketika adanya pertukaran data diantara 2 device melalui sebuah media transmisi seperti kabel. Agar komunikasi data terjadi, perangkat komunikasi harus menjadi bagian dari sistem komunikasi yang terdiri dari kombinasi perangkat keras (peralatan fisik) dan perangkat lunak (program). Efektivitas sistem komunikasi data tergantung pada empat karakteristik mendasar: pengiriman, akurasi, ketepatan waktu, dan jitter.
+
+Data bisa analog atau digital. Istilah data analog mengacu pada informasi yang kontinu, data digital mengacu pada informasi yang memiliki keadaan diskrit. Misalnya, jam analog yang memiliki jarum jam, menit, dan detik memberikan informasi dalam bentuk kontinu gerakan jarum terus menerus. Di sisi lain, jam digital yang melaporkan jam dan menit akan berubah tiba-tiba dari 8:05 menjadi 8:06. Data analog, seperti suara yang dibuat oleh suara manusia, memiliki nilai kontinu. Ketika seseorang berbicara, gelombang analog dibuat di udara. Ini dapat ditangkap oleh mikrofon dan diubah menjadi sinyal analog atau diambil sampelnya dan diubah menjadi sinyal digital. Data digital mengambil nilai diskrit. Misalnya, data disimpan dalam memori komputer dalam bentuk 0s dan 1s. Mereka dapat diubah menjadi sinyal digital atau dimodulasi menjadi sinyal analog untuk transmisi melalui media.
+
+Sebuah media transmisi dapat secara luas didefinisikan sebagai segala sesuatu yang dapat membawa informasi dari sumber ke tujuan. Misalnya, media transmisi untuk dua orang yang melakukan percakapan makan malam adalah udara. Udara juga dapat digunakan untuk menyampaikan pesan dalam sinyal asap atau semaphore. Untuk pesan tertulis, media transmisi mungkin pembawa surat, truk, atau pesawat terbang. Dalam komunikasi data definisi informasi dan media transmisi lebih spesifik. Media transmisi biasanya berupa ruang bebas, kabel metalik, atau kabel serat optik. Informasi tersebut biasanya berupa sinyal yang merupakan hasil konversi data dari bentuk lain. Penggunaan komunikasi jarak jauh menggunakan sinyal listrik dimulai dengan ditemukannya telegraf oleh Morse pada abad ke-19. Komunikasi melalui telegraf lambat dan bergantung pada media logam. Memperluas jangkauan suara manusia menjadi mungkin ketika telepon ditemukan pada tahun 1869. Komunikasi telepon pada waktu itu juga membutuhkan media logam untuk membawa sinyal listrik yang merupakan hasil konversi dari suara manusia.
+
+TelegramBot merupakan platform aplikasi Third Party yang ada di Telegam, Pengguna bisa berinteraksi dengannya dengan mengirimkan pesan, perintah, dan sebuah inline request. Pada intinya, TelegramBot adalah akun khusus yang tidak memerlukan nomor telepon tambahan untuk mengaturnya. Pengguna dapat berinteraksi dengan bot dalam dua cara :
+    \begin{itemize}
+        \item[a.] Kirim pesan dan perintah ke bot dengan membuka obrolan dengan mereka atau dengan menambahkannya ke grup.
+        \item[b.] Kirim permintaan langsung dari bidang input dengan mengetikkan @namapengguna bot dan kueri. Ini memungkinkan pengiriman konten dari bot sebaris langsung ke obrolan, grup, atau saluran apa pun.
+    \end{itemize}
+
+Pesan, perintah, dan permintaan yang dikirim oleh pengguna diteruskan ke perangkat lunak yang berjalan di server Anda. Server perantara kami menangani semua enkripsi dan komunikasi dengan API Telegram untuk Anda. Anda berkomunikasi dengan server ini melalui antarmuka HTTPS sederhana yang menawarkan versi sederhana dari API Telegram.
+
+Untuk pembuatan TelegramBot, pertama kita dapat mengikuti urutan perintah yang disediakan oleh BotFather yang nantinya BotFather akan memberikan nomor Token.
+
+\section{Perancangan Sistem}
+...
+
+\section{Results}
+...
+
+\section{Kesimpulan}
+...
+
+\bibliographystyle{IEEEtran}
+\bibliography{referensi.bib}
+
+\end{document}
